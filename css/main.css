@@ -1,0 +1,134 @@
+body {
+  font-family: "ProximaNova-Regular", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.42857;
+  -webkit-font-smoothing: antialised;
+  background-color: #fff;
+  letter-spacing: 1px;
+  overflow-x: hidden;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+  color: red; }
+
+body input:required:valid,
+body textarea:required:valid {
+  color: green; }
+
+.hidden {
+  display: none; }
+
+.invalid-field{
+  font-size: 11px;
+  color: #F59797;
+  position: absolute;
+  margin-top: -30px;
+}
+.show-block{
+  display:block !important;
+}
+.show-inline{
+  display:inline !important;
+}
+.show-inline-block{
+  display:inline-block !important;
+}
+.upper_case{
+  text-transform: uppercase;
+}
+
+.main_head {
+  position: relative;
+  min-height: 800px;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+a,
+a:hover,
+a:visited,
+a:focus,
+a:active {
+  border: 0;
+  outline: 0;
+}
+
+img {
+  border: 0;
+  outline: 0;
+}
+
+section {
+  padding: 70px 0 70px; }
+section h3 {
+  text-align: center;
+  font-size: 36px;
+  text-transform: uppercase;
+  margin: 0 0 15px;
+  letter-spacing: 2px;
+  color: #fff;
+  font-family: "ProximaNova-Bold";
+}
+
+.s_descr_wrap {
+  text-align: center; }
+.s_descr_wrap .s_descr {
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  position: relative;
+  margin-bottom: 90px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+.s_descr_wrap .s_descr::after {
+  content: "";
+  height: 2px;
+  left: 50%;
+  margin-left: -100px;
+  margin-top: 55px;
+  position: absolute;
+  width: 200px;
+  background-color: #6ECF7E;
+}
+.s_descr {
+  color: #fff;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+.logo span{
+  font-size: 20px;
+  font-family: "ProximaNova-Bold";
+  letter-spacing: 1px;
+  border-bottom: 2px solid #6ECF7E;
+}
+.logo {
+  padding-left: 85px;
+  padding-top: 33px;
+}
+
+.toTop {
+  position: fixed;
+  bottom: 10px;
+  left: 35px;
+  cursor: pointer;
+  display: none;
+  color: #7c7c7c;
+  font-size: 50px;
+  z-index: 100;
+}

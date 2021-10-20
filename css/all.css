@@ -1,0 +1,530 @@
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    padding-top: 13px;
+}
+.navbar {
+    min-height: 100px;
+}
+.navbar_brand img {
+    display: block;
+}
+.navbar-header img {
+    width: 50px;
+    padding-top: 8px;
+}
+.navbar-nav {
+    float: none;
+    text-align: center;
+}
+.navbar-nav li {
+    float: none;
+    display: inline-block;
+    padding-top: 3px;
+}
+
+.sections-list{
+    margin-top: 10px;
+    padding-left: 14%;
+}
+.sections-list > li > a {
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+.sections-list> li > a > h4  {
+    padding-top: 0px;
+    padding-bottom: 0px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "ProximaNova-Bold";
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+.nav > li > a:hover {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #6ECF7E;
+}
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: #fff;
+}
+
+.cl-nav{
+    background-color: rgba(52, 58, 60, 0.7);
+    border-radius: 0;
+    position: relative;
+    width: 100%;
+    min-width: 320px;
+    z-index: 100;
+    color: #fff;
+    border-bottom: solid 1px #c3c3c3;
+}
+.cl-nav-btn{
+    border: 2px solid #6ECF7E;
+    background: rgba(52, 58, 60, 0.7);
+    margin-top:15px;
+}
+.cl-nav-btn span{
+    background:#6ECF7E;
+}
+
+#logo-block{
+    display: inline-block;
+}
+
+#logo-block img{
+    margin: 5px;
+}
+#wrapper-client{
+    margin-top: 140px;
+}
+#client-navbar{
+    float:left;
+    padding-top: 23px;
+    padding-left:120px;
+}
+#client-navbar ul{
+
+}
+#client-navbar ul li{
+    display:inline;
+    margin-right:20px;
+}
+#client-navbar ul li a{
+    color: #fff;
+    text-decoration:none;
+}
+#client-footbar{
+    display:inline-block;
+    padding-top: 0px;
+    padding-left:20px;
+}
+#client-footbar ul li{
+    display:inline;
+    margin-right:20px;
+}
+#client-footbar ul li a{
+    color:#fff;
+    text-decoration:none;
+}
+.numbers{
+    float: right;
+    font-family: "ProximaNova-Light";
+    font-size: 13px;
+    margin-top: 10px;
+}
+.numbers i {
+    font-size: 30px;
+    padding-right: 5px;
+    vertical-align: middle;
+}
+
+.tel a {
+    color: #fff;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+    vertical-align: middle;
+}
+.tel a:hover {
+    color: #6ECF7E;
+}
+.navbar-collapse {
+    padding-top: 15px;
+}
+
+.top_wrapper {
+    padding-top: 10%;
+    padding-bottom: 10%;
+    display: table;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 20;
+}
+.top_wrapper .top_descr {
+    display: table-row;
+}
+.top_wrapper .top_centered {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+.top_wrapper .top_text {
+    display: inline-block;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.top_wrapper .top_text h1 {
+    display: inline-block;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "ProximaNova-Black";
+    font-size: 70px;
+    letter-spacing: 2px;
+}
+.top_wrapper .top_text p {
+    color: #fff;
+    font-family: "ProximaNova-Regular";
+    font-size: 40px;
+    letter-spacing: 1px;
+    border-bottom: solid 3px #6ECF7E;
+    padding-bottom: 20px;
+}
+
+.benefits {
+    position: relative;
+    width:100%;
+    cursor: grab;
+    background-color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.benefits .owl-carousel .item{
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.benefits .owl-carousel .item img{
+    width: 70px;
+    margin: auto;
+    padding-top: 15px;
+}
+
+.benefits .owl-carousel .item h2{
+
+    color: #343a3c;
+    font-size: 16px;
+    font-family: "ProximaNova-Bold";
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+}
+.benefits .bord {
+    padding-bottom: 15px;
+}
+
+.benefits .owl-carousel .item p{
+    padding-top: 20px;
+    color: #343a3c;
+    font-size: 14px;
+    font-family: "ProximaNova-Light";
+    text-align: center;
+    border-top: 2px solid #6ECF7E;
+}
+.benefits .circle {
+    width: 100px;
+    height: 100px;
+    background: #6ECF7E;
+    -moz-border-radius: 60px;
+    -webkit-border-radius: 60px;
+    border-radius: 60px;
+    margin: auto;
+}
+#portfolio {
+    position: relative;
+    background-color: #343a3c;
+}
+
+.s_portfolio ul,
+.s_portfolio li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+.s_portfolio li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-size: 13px;
+    cursor: pointer;
+    line-height: 2;
+    color: #a6a6a6;
+    font-family: "ProximaNova-Regular";
+}
+.s_portfolio li.active {
+    color: #fff;
+    border-bottom: 1px solid #6ECF7E;
+}
+.s_portfolio ul {
+    margin-bottom: 50px; }
+
+.portfolio_item {
+    display: none;
+    padding: 0; }
+.portfolio_item img {
+    width: 100%;
+    height: 280px;}
+.portfolio_item .port_item_cont {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+    padding-top: 15%;
+    opacity: 0;
+    -webkit-transition: all 0.5s;
+    transition: all 0.5s; }
+.port_item_cont p {
+    color: #a6a6a6;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-size: 15px;
+}
+.portfolio_item:hover .port_item_cont {
+    opacity: 1;
+    padding-top: 20%; }
+.portfolio_item h4 {
+    color: #fff;
+    margin-bottom: 0;
+    font-size: 20px;
+}
+.portfolio_item a {
+    background-color: transparent;
+    border: #6ECF7E 2px solid;
+    padding: 5px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-family: "ProximaNova-Regular";
+    letter-spacing: 2px;
+}
+.portfolio_item a:hover {
+    color: #6ECF7E;
+    border-color: #fff;
+    transition: all 0.5s ease;
+}
+
+.podrt_descr {
+    background-color: #fff;
+    max-width: 740px;
+    margin: auto; }
+.podrt_descr p,
+.podrt_descr h4 {
+    padding: 20px;
+    padding-bottom: 0; }
+.podrt_descr h4 {
+    margin-bottom: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-top: 20px;
+    padding-top: 25px; }
+.podrt_descr p {
+    margin-top: 0; }
+.podrt_descr img {
+    width: 100%;
+    margin-top: 10px; }
+
+.modal-box-content {
+    position: relative;
+}
+.bg_light {
+    background-color: #fff;
+}
+.bg_light .section_header h3 {
+    color: #343a3c;
+}
+.bg_light .s_descr {
+    color: #343a3c;
+}
+
+.whats {
+    position: relative;
+    width:100%;
+    cursor: grab;
+    padding-top: 15px;
+    background-color: #fff;
+    padding-bottom: 5px;
+}
+
+.whats .owl-carousel .item{
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.whats .owl-carousel .item img{
+    width: 100px;
+    margin: auto;
+}
+
+.whats .owl-carousel .item h2{
+    color: #343a3c;
+    font-size: 17px;
+    font-family: "ProximaNova-Bold";
+    letter-spacing: 0.5px;
+}
+.whats .bord {
+    padding-bottom: 15px;
+}
+
+.icon_t img{
+    width: 90px;
+    padding-bottom: 60px;
+    margin-top: -30px;
+    padding-top: 10px;
+}
+.icon_t {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+.tel_f a {
+    color: #343a3c;
+    text-decoration: none;
+    outline: none;
+    font-size: 16px;
+    vertical-align: middle;
+    padding-top: 10px;
+}
+.contact_box {
+    margin-bottom: 30px; }
+.contact_box h3 {
+    text-align: left;
+    color: #343a3c;
+    margin-bottom: 0px;
+    font-size: 14px;
+}
+.contact_box .contacts_icon {
+    font-size: 50px;
+    color: #6ECF7E;
+}
+.contact_box p {
+    margin-top: 5px;
+}
+
+.main_form button {
+    border: none;
+    color: #fff;
+    line-height: 40px;
+    padding: 0 25px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10px;
+    float: right;
+    background-color: #6ECF7E;
+}
+.form-group {
+    display: block;
+    margin-bottom: 20px;
+}
+.form-group .text-danger {
+    font-size: 13px;
+    font-family: "ProximaNova-Light";
+    margin-top: 7px;
+    display: block;
+    color: #6ECF7E;
+}
+.form-group .text-danger ul,
+.form-group .text-danger li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.form-group input,
+.form-group textarea {
+    display: block;
+    width: 100%;
+    border: 1px solid #c3c3c3;
+    margin-top: 5px;
+    line-height: 45px;
+    text-indent: 12px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-family: "ProximaNova-Light";
+    background-color: transparent;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.s_info {
+    background-color: #343a3c;
+}
+.top_info h4 {
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    line-height: 25px;
+}
+.top_info h5 {
+    color: #fff;
+    font-size: 22px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: "ProximaNova-Bold";
+    letter-spacing: 2px;
+    line-height: 30px;
+}
+
+.s_info {
+    position: relative;
+    width:100%;
+    cursor: grab;
+    background-color: #343a3c;
+    padding-bottom: 40px;
+}
+
+.s_info .owl-carousel .item{
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+.s_info .owl-carousel .item img{
+    width: 60px;
+    margin: auto;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+
+.s_info .owl-carousel .item h2{
+    color: #fff;
+    font-size: 16px;
+    font-family: "ProximaNova-Bold";
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    background-color: #6ECF7E;
+}
+
+.s_info .owl-carousel .item p{
+    padding-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-family: "ProximaNova-Light";
+    text-align: center;
+}
+
+
+
+
+
+
+
+

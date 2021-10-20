@@ -1,0 +1,21 @@
+@font-face {
+    font-family: "ProximaNova-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: url("../fonts/ProximaNova-Regular/ProximaNova-Regular.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Regular/ProximaNova-Regular.woff") format("woff"), url("../fonts/RalewayRegular/ProximaNova-Regular.ttf") format("truetype"); }
+@font-face {
+    font-family: "ProximaNova-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: url("../fonts/ProximaNova-Bold/ProximaNova-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Bold/ProximaNova-Bold.woff") format("woff"), url("../fonts/ProximaNova-Bold/ProximaNova-Bold.ttf") format("truetype"); }
+@font-face {
+    font-family: "ProximaNova-Light";
+    font-style: normal;
+    font-weight: 300;
+    src: url("../fonts/ProximaNova-Light/ProximaNova-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Light/ProximaNova-Light.woff") format("woff"), url("../fonts/ProximaNova-Light/ProximaNova-Light.ttf") format("truetype"); }
+@font-face {
+    font-family: "ProximaNova-Black";
+    font-style: normal;
+    font-weight: 600;
+    src: url("../fonts/ProximaNova-Black/ProximaNova-Black.eot?#iefix") format("embedded-opentype"), url("../fonts/ProximaNova-Black/ProximaNova-Black.woff") format("woff"), url("../fonts/ProximaNova-Black/ProximaNova-Black.ttf") format("truetype"); }
+

@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>ЕзжевСтрой</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="libs/animate/animate.min.css" />
+    <link rel="stylesheet" href="libs/bootstrap/css/bootstrap.css" />
+    <link rel="stylesheet" href="libs/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="libs/magnific-popup/magnific-popup.css" />
+	<link rel="stylesheet" href="libs/carousel/owl.carousel.css" />
+    <link rel="stylesheet" href="libs/linea/styles.css" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/main.css" />
+	<link rel="stylesheet" href="css/all.css" />
+    <link rel="stylesheet" href="css/media.css" />
+</head>
+
+<body>
+
+<header class="main_head main_color_bg" data-parallax="scroll" data-image-src="img/bg.jpg" data-z-index="1">
+
+	<nav class="navbar cl-nav" role="navigation">
+
+		<!-- Название компании и кнопка, которая отображается для мобильных устройств группируются для лучшего отображения при свертывание -->
+		<div class="navbar-header">
+			<button id="nav-btn" type="button" class="navbar-toggle cl-nav-btn" data-toggle="collapse" data-target="#nav-sections">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="index.html" alt="ЕзжевСтрой"><img src="img/logo.svg" alt="ЕзжевСтрой"/></a>
+			<div class="logo">
+			<span>ЕзжевСтрой</span>
+			</div>
+		</div>
+
+		<div class="toTop"><i class="fa fa-eject" aria-hidden="true"></i></div>
+
+		<!-- Группируем ссылки, формы, выпадающее меню и прочие элементы -->
+		<div class="collapse navbar-collapse" id="nav-sections">
+			<ul class="nav navbar-nav sections-list">
+				<li>
+					<a href="#portfolio"><h4>Галерея</h4></a>
+				</li>
+				<li>
+					<a href="#info"><h4>Полезная информация</h4></a>
+				</li>
+				<li>
+					<a href="#contacts"><h4>Контакты</h4></a>
+				</li>
+				<ul class="nav navbar-nav navbar-right numbers-list  hide-to-768">
+				</ul>
+				<div class="numbers  hide-to-768 mrg-top-to-1199-30">
+					<div class="phone-icon tel">
+						<i class="fa fa-phone" aria-hidden="true"></i>
+						<b>
+							<a href="tel:+375-29-000-00-00">+375-29-000-00-00</a>
+						</b>
+					</div>
+				</div>
+			</ul>
+			</div>
+	</nav>
+
+	<div class="top_wrapper">
+		<div class="top_descr">
+			<div class="top_centered">
+				<div class="top_text">
+					<h1>Каркасные дома</h1>
+					<p>Технология строительства, которая подходит каждому</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</header>
+
+<div id="whats" class="whats">
+
+	<div class="container">
+
+		<div class="owl-carousel">
+			<div class="item"><a><img src="img/icons/board.svg"/></a>
+				<h2>Мы не строим дома из соломы</h2>
+			</div>
+			<div class="item"><a><img src="img/icons/screw.svg"/></a>
+				<h2>Мы не ставим избы на курьи ножки</h2>
+			</div>
+			<div class="item"><a><img src="img/icons/money.svg"/></a>
+				<h2>Мы не экономим на том, в чем вы не разбираетесь</h2>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section id="portfolio" class="s_portfolio ">
+	<div class="section_header">
+		<h3>Галерея</h3>
+		<div class="s_descr_wrap">
+			<div class="s_descr">наши последние проекты</div>
+		</div>
+	</div>
+	<div class="section_content">
+			<div class="row">
+				<div class="filter_div controls">
+					<ul>
+						<li class="filter active" data-filter="all">Все проекты</li>
+						<li class="filter" data-filter=".category-1">Готовые</li>
+						<li class="filter" data-filter=".category-2">На этапе строительства</li>
+					</ul>
+				</div>
+				<div id="portfolio_grid">
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/1.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/1.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/2.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/2.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/3.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/3.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/4.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/4.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-1">
+						<img src="img/portfolio-images/5.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/5.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/6.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/6.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/7.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/7.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="mix col-md-3 col-sm-6 col-xs-12 portfolio_item category-2">
+						<img src="img/portfolio-images/8.jpg" alt="Alt" />
+						<div class="port_item_cont">
+							<h4>Заголовок работы</h4>
+							<p>Описание работы</p>
+							<a href="#" class="popup_content">Посмотреть</a>
+						</div>
+						<div class="hidden">
+							<div class="podrt_descr">
+								<div class="modal-box-content">
+									<button class="mfp-close" type="button" title="Закрыть (Esc)">×</button>
+									<h4>Заголовок работы</h4>
+									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum cupiditate, dignissimos quo. Dolore, omnis totam quibusdam voluptatibus cum, nulla dolores sunt iste? Sunt nam illum, animi magni veniam adipisci non.</p>
+									<img src="img/portfolio-images/8.jpg" alt="Alt" />
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+
+</section>
+
+<div id="benefits" class="benefits">
+
+	<div class="container">
+
+		<div class="owl-carousel">
+			<div class="item"><div class="circle"><a><img src="img/icons/tree.svg"/></a></div>
+				<h2>Прочный каркас</h2>
+				<p>Мы не экономим на прочности каркаса и используем только качественную древесину, такую как бобаб или сиквоя</p>
+			</div>
+			<div class="item"><div class="circle"><a><img src="img/icons/concrete.svg"/></a></div>
+				<h2>Долговечный фундамент</h2>
+				<p>Мы не экономим на фундаменте дома и используем какчественных бетон</p>
+			</div>
+			<div class="item"><div class="circle"><a><img src="img/icons/heat.svg"/></a></div>
+				<h2>Отделочные материалы</h2>
+				<p>Мы используем только дорогую и качественную пленку, биозащиту, метизы и утеплитель</p>
+			</div>
+		</div>
+	</div>
+</div>
+
+<section id="info" class="s_info">
+	<div class="section_header">
+		<h3>Полезная информация</h3>
+		<div class="s_descr_wrap">
+			<div class="s_descr">как мы создаем проекты</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="top_info">
+		<h4>Своим клиентам мы предлагаем построить каркасный дом «под ключ», на выбор по готовому нашему проекту, или по проекту, разработанному под заказ. К каждому клиенту исключительно индивидуальный подход, но неизменно для всех одно – договор на выполнение работ и наша гарантия качества!</h4>
+		<h5>Строительство каркасного дома осуществляется в несколько этапов</h5>
+		</div>
+		<div class="owl-carousel">
+			<div class="item"><a><img src="img/icons/ruler.svg"/></a>
+				<h2>замеры земельного участка</h2>
+				<p>Обсуждается проект, в него вносятся необходимые коррективы, он дорабатывается и утверждается</p>
+			</div>
+			<div class="item"><a><img src="img/icons/brick.svg"/></a>
+				<h2>устройство фундамента</h2>
+				<p>В зависимости от местности мы рассчитываем какой фундамент будет лучше и экономичнее</p>
+			</div>
+			<div class="item"><a><img src="img/icons/wrench.svg"/></a>
+				<h2>сборка дома на месте</h2>
+				<p>Основой каркасного дома, конечно же, является деревянный каркас. Каркас обшивается с двух сторон, а внутри стена заполняется кварцевым утеплителем</p>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section id="contacts" class="s_contact bg_light">
+
+	<div class="section_header">
+		<h3>Контакты</h3>
+		<div class="s_descr_wrap">
+			<div class="s_descr">Оставьте ваше сообщение</div>
+		</div>
+	</div>
+	<div class="section_content">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<div class="contact_box">
+						<div class="contacts_icon icon-basic-geolocalize-05"></div>
+						<h3>Адрес:</h3>
+						<p>Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.</p>
+					</div>
+					<div class="contact_box">
+						<div class="contacts_icon icon-basic-smartphone"></div>
+						<h3>Телефон:</h3>
+						<div class="tel_f"><a href="tel:+375-29-000-00-00">+375-29-000-00-00</a></div>
+					</div>
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<form action="http://formspree.io/sevko.vova@mail.ru" class="main_form" novalidate target="_blank" method="post">
+						<label class="form-group">
+							<input type="text" name="name" placeholder="Ваше имя" data-validation-required-message="Вы не ввели имя" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<input type="email" name="email" placeholder="Ваш E-mail" data-validation-required-message="Не корректно введен E-mail" required />
+							<span class="help-block text-danger"></span>
+						</label>
+						<label class="form-group">
+							<textarea name="message" placeholder="Ваше сообщение" data-validation-required-message="Вы не ввели сообщение" required></textarea>
+							<span class="help-block text-danger"></span>
+						</label>
+						<button>Отправить</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+</section>
+
+<!--[if lt IE 9]>
+<script src="libs/html5shiv/es5-shim.min.js"></script>
+<script src="libs/html5shiv/html5shiv.min.js"></script>
+<script src="libs/html5shiv/html5shiv-printshiv.min.js"></script>
+<script src="libs/respond/respond.min.js"></script>
+<![endif]-->
+
+<script src="libs/jq/jquery-2.2.3.js"></script>
+<script src="libs/animate/animate-css.js"></script>
+<script src="libs/parallax/parallax.min.js"></script>
+<script src="libs/magnific-popup/jquery.magnific-popup.min.js"></script>
+<script src="libs/carousel/owl.carousel.js"></script>
+<script src="libs/mixitup/mixitup.min.js"></script>
+<script src="libs/waypoints/waypoints.min.js"></script>
+<script src="libs/bootstrap/js/bootstrap.js"></script>
+<script src="libs/jqBootstrapValidation/jqBootstrapValidation.js"></script>
+<script src="js/common.js"></script>
+<script src="js/scroll.js"></script>
+<!-- Yandex.Metrika counter --><!-- /Yandex.Metrika counter -->
+<!-- Google Analytics counter --><!-- /Google Analytics counter -->
+</body>
+</html>
